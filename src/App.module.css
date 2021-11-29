@@ -1,0 +1,20 @@
+.app {
+    display: grid;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 300px;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.counterSettingBlock {
+    margin-right: 100px;
+}
+
+.counterBlock {
+    margin-left: 80px;
+}
+
+
+
+

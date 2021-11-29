@@ -1,0 +1,56 @@
+.counterSettingBlock {
+    border: 3px solid #15ccd3;
+    border-radius: 10px;
+}
+
+.changeValue {
+    border: 3px solid #15ccd3;
+    border-radius: 10px;
+    margin: 15px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.changeValue input {
+    height: 30px;
+}
+
+.value {
+    padding: 20px 10px 20px 10px;
+}
+
+.spanStyle {
+    margin-top: 30px;
+    font-size: 22px;
+    font-family: "Calibri";
+    font-weight: bold;
+    color: #15ccd3;
+    float: bottom;
+}
+
+.spanStyle input{
+    float: right;
+}
+
+.setBlock {
+    border: 3px solid #15ccd3;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    padding: 20px 20px;
+}
+
+.inputError {
+    border: 3px solid red;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    background: rgb(232, 109, 109);
+}
+
+.inputStyle {
+    border: 3px solid #15ccd3;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
