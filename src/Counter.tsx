@@ -39,8 +39,8 @@ export const Counter: React.FC<CounterPropsType> = (
             <div className={s.buttonBlock}>
                 <div><SuperButton style={buttonDisabled ? {opacity: "0.5"} : {}} disabled={buttonDisabled}
                                   callback={changeCount}>inc</SuperButton></div>
-                <div><SuperButton style={count === "Press 'set'" ? {opacity: "0.5"} : {}}
-                                  disabled={count === "Press 'set'"}
+                <div><SuperButton style={count === "Press 'set'" || count === minValue ? {opacity: "0.5"} : {}}
+                                  disabled={count === "Press 'set'" || count === minValue}
                                   callback={resetCount}>reset</SuperButton></div>
             </div>
         </div>
